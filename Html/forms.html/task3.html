@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="text-align:center">
+      <b>  <legend>SignUp here!</legend>
+        <form action="">
+            <label for="focus">User Name:</label>
+          <input type="text" name="name" id="focus" placeholder="Username" pattern="[A-Za-z0-9]+"  style="margin: 6px; margin-left:10px; background-color:rgba(201, 216, 230, 0.455)" > <br>
+          <label for="">Email:</label>
+          <input type="email" placeholder="email@gmail.com"style="margin: 10px; margin-left:42px; background-color:rgba(201, 216, 230, 0.455)"> <br>
+          <label for="">Phone Number:</label>
+          <input type="text" placeholder="xxx-xxx-xxxx" pattern="[0-9]{10}" style="margin: 6px; margin-right:32px; background-color:rgba(201, 216, 230, 0.455)"><br>
+          <label for="">Password:</label>
+          <input type="password" name="password" id="" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" required style="margin: 6px; margin-left:23px; background-color:rgba(201, 216, 230, 0.455)"><br>
+          <label for="">Confirm Password:</label>
+          <input type="password" name="confirm password" id="" placeholder=" confirm password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" required style="margin: 6px; margin-right:55px; background-color:rgba(201, 216, 230, 0.455)"><br>
+          <input type="submit" value="SignUp" style="background-color: blue; margin:10px; width:300px" formaction="account.html">
+        <p>Already have an account <a href="login.html">Login</a></p>
+        </form>
+    </b>
+    </fieldset>
+</body>
