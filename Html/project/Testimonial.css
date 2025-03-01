@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+    max-width: 100%;
+    text-decoration: none;
+}
+:root {
+    --orange: #fd7e14;
+    --white: #fff;
+    --gray: #2e2e2fe2;
+    --gray-dark: #343a40c7;
+    --primary: #DA9F5B;
+    --secondary: #33211D;
+    --success: #666666;
+    --dark: #111111;
+    --back: rgba(58, 28, 28, 0.792);
+}
+body{
+    font-family: "Bebas Neue", serif;
+    
+}
+.home11{
+    background-image:url(bg.jpg);
+    height: 60vh;
+    background-color:var(--back);
+    background-position: center;
+}
+.logo1{
+    position:relative;
+    color:white ;
+    background-color: var(--back);
+    z-index:1;
+    padding-bottom: 10px;
+}
+.heading{
+    color:white ;
+    z-index: 1;
+    font-weight: bolder;
+}
+.koppee{
+    font-size: 70px;
+    padding: 25px 0px 0px 40px;
+    font-weight: 600;
+}
+
+.menubars{
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+.menubars ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+
+}
+.menubars ul li{
+    width:100px;
+    font-size: larger;
+}
+.menubars ul li a{
+    color: var(--white);
+    text-decoration: none;
+
+}
+.about12{
+    color: var(--primary);
+}
+.dropmenu{
+    display:none;
+    
+}
+.menubars ul li:hover .dropmenu{
+    display: block;
+    position: absolute;
+    background-color:var(--secondary);
+    
+} 
+.menubars ul li:hover .dropmenu ul{
+    display:block ;
+    margin-left: -20px;
+}
+.aboutt:hover{
+    color: var(--primary);
+
+}
+.menuu{
+    text-align: center;
+    font-size: 60px;
+    padding: 25px 0px 0px 0px;
+    letter-spacing: 4px;
+}
+.menuuu{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 1px;
+    font-style:oblique;
+    padding: 0px;
+}
+.menubg{
+    background-color:var(--back);
+    padding: 0px 0 0px 0px 0px;
+    color: var(--white);
+
+}
+.overlay1{
+     margin-top: 140px;
+     filter: brightness(3);
+}
+.about1{
+    font-size:30px ;
+    letter-spacing: 11px;
+    text-align: center;
+    color: var(--primary);
+}
+.about2{
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: var(--secondary);
+}
+.Testimonial{
+    text-align: center;
+    margin-top: 90px;
+}
+.vertical-line3 {
+    width: 2px;
+    height: 110px;
+    background-color:var(--primary);
+    margin: 60px auto 10px;
+}
+.clients1{
+    display: flex;
+    justify-content:space-evenly ;
+    align-content: center;
+}
+.client2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+.test1{
+    height: 100px;
+    margin:60px 0px 0px 50px ;
+}
+.test2{
+    margin:60px 0px 0px -40px;
+}
+.test3{
+    margin: 0px 0px 0pc 40px ;
+    color: var(--gray-dark);
+}
+.test4{
+    margin: 5px 0px 0px 0px ;
+    color: var(--gray-dark);
+}
+.test5{
+    margin: 5px 0px 0px 0px ;
+    color: var(--gray);
+}
+.test6{
+    margin: 5px 20px 0px 0px ;
+    color: var(--gray-dark);
+}
+.end-section1{
+    background-image: url(bg.jpg);
+    height:65vh;
+    padding: 60px;
+    width: 100%;
+    text-align: left;
+
+}
+.end-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: var(--white);
+    background-color: var(--back);
+    padding: 50px 60px 40px 60px;
+    margin-bottom: 1.2px;
+    width: 100%;
+}
+.overlay-end{
+  width: 100%;
+   margin-bottom:-70px ;
+   filter: brightness(3)
+}
+
+.h22{
+    font-size:40px ;
+    text-transform: uppercase;
+    padding: 0px 35px;
+    font-weight: 50px;
+
+    
+}
+.copyright{
+    color: var(--white);
+    text-align: center;
+    background-color:var(--back);
+    margin-top: 0px;
+    padding: 0px 50px 5px 0px;
+}
+.days{
+    padding: 0px 40px;
+    font-size: 14px;
+    font-weight: 20px;
+    font-family:sans-serif
+}
+.icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--white);
+ }
+ .icon:hover
+ {
+    background-color: var(--primary);
+ }
+ .mail3{
+    padding: 0px 10px 0px 0px;
+    margin-left: 40px;
+    width: 252px;
+    height: 50px;
+    text-align: center;
+
+ }
+ .btn9{
+    height: 53px;
+    width: 90px;
+    margin-left: -20px;
+    background-color: var(--primary);
+ }
+ .btn9:hover{
+    background-color: var(--orange);
+    color: var(--white);
+ }  
+ .day2{
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary);
+
+ }
+ .days1{
+    padding-top: 15px;
+    word-spacing: 3px;
+    font-family: serif;
+ }
+ .days1{
+    word-spacing: 3px;
+    font-family: serif;
+ }
+ .mail3:hover{
+    border: 3px solid var(--primary);
+ }
+ @media (max-width: 670px) {
+    .home11{
+        background-image:url(bg.jpg);
+        height: 40vh;
+        background-color:var(--back);
+        background-position: center;
+    }   
+    .logo1{
+        position:relative;
+        color:white ;
+        z-index:1;
+      }
+      .heading{
+        color:white ;
+        z-index: 1;
+        font-weight: bolder;
+      }
+      .koppee{
+        font-size: 16px;
+        padding: 10px 0px 0px 10px;
+        font-weight: 400;
+      }
+      .overlay1{
+        margin-top: 60px;
+        filter: brightness(3);
+      }
+       .menubars{
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        margin-left: 45px;
+        margin-top: -25px;
+      }
+      .menubars ul{
+        display: flex;
+        justify-content:space-around;
+        list-style: none;
+        text-align: center;
+      
+      }
+      .menubars ul li{
+        width:50px;
+        font-size: 10px;
+      }
+      .menubars ul li a{
+        color: var(--white);
+        text-decoration: none;
+      
+      }
+      .about12{
+        color: var(--primary);
+      }
+      .dropmenu{
+        display:none;
+        
+      }
+      .menubars ul li:hover .dropmenu{
+        display: block;
+        position: absolute;
+        background-color:var(--secondary);
+        
+      } 
+      .menubars ul li:hover .dropmenu ul{
+        display:block ;
+        margin-left: -20px;
+      }
+      .aboutt:hover{
+        color: var(--primary);
+      
+      }
+      .menuu {
+          font-size: 20px;
+          padding: 80px 0px 0px 0px;
+        }
+    
+        .menuuu {
+            font-size: 16px;
+        }
+        .Testimonial{
+            text-align: center;
+            margin-top: -20px;
+        
+        }
+        .vertical-line3 {
+            width: 2px;
+            height: 80px;
+            background-color:var(--primary);
+            margin: 30px auto 10px;
+        }
+        .about1 {
+            font-size: 18px;
+            letter-spacing: 8px;
+        }
+    
+        .about2 {
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+        .clients1{
+            display: flex;
+            justify-content:space-evenly ;
+            align-content: center;
+            padding: 0px 0px 0px 0px;
+        }
+        .client2{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 100px;
+        
+        }
+        .test1{
+            height: 100px;
+            margin:30px 250px 0px 10px ;
+        }
+        .test2{
+            margin:30px 40px 0px -130px;
+        }
+        .test3{
+            margin: 5px 40px 0pc 10px ;
+            color: var(--gray-dark);
+        }
+        .test4{
+            margin: 5px 30px 0px 5px ;
+            color: var(--gray-dark);
+        }
+        .test5{
+            margin: 5px 20px 0px 10px ;
+            color: var(--gray);
+        }
+        .test6{
+            margin: 5px 20px 0px 30px ;
+            color: var(--gray-dark);
+        }
+        .overlay-end{
+            width: 100%;
+           margin-bottom:-35px ;
+          filter: brightness(3)
+        }
+        .end-section1 {
+            padding: 20px 10px;
+            margin-top: 0px;
+            height: 850px;
+        }
+    
+        .end-section {
+            grid-template-columns: repeat(1, auto); 
+            padding: 20px 10px;
+        }
+    
+        .h22 {
+            font-size: 24px; 
+            padding: 0px 10px; 
+        }
+    
+        .days {
+            padding: 0px 10px;
+        }
+    
+        .mail3 {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .btn9 {
+            width: 100%; 
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    
+        .icon {
+            padding: 10px;
+            font-size: 24px;
+            width: 40px;
+        }
+        .copyright{
+            color: var(--white);
+            text-align: center;
+            background-color:var(--back);
+            margin-top: 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        .day2{
+            padding: 5px 0px 0px 5px;
+
+        }     
+}

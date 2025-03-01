@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+    max-width: 100%;
+    text-decoration: none;
+}
+:root {
+    --orange: #fd7e14;
+    --white: #fff;
+    --gray: #2e2e2fe2;
+    --gray-dark: #343a40c7;
+    --primary: #DA9F5B;
+    --secondary: #33211D;
+    --success: #666666;
+    --dark: #111111;
+    --back: rgba(58, 28, 28, 0.792);
+}
+body{
+    font-family: "Bebas Neue", serif;
+}
+.home11{
+    background-image:url(bg.jpg);
+    height: 60vh;
+    background-color:var(--back);
+    background-position: center;
+}
+.logo1{
+    position:relative;
+    color:white ;
+    background-color: var(--back);
+    z-index:1;
+    padding-bottom: 10px;
+}
+.heading{
+    color:white ;
+    z-index: 1;
+    font-weight: bolder;
+}
+.koppee{
+    font-size: 70px;
+    padding: 35px 0px 0px 40px;
+    font-weight: 600;
+}
+
+.menubars{
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+.menubars ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+
+}
+.menubars ul li{
+    width:100px;
+    font-size: larger;
+}
+.menubars ul li a{
+    color: var(--white);
+    text-decoration: none;
+
+}
+.about12{
+    color: var(--primary);
+}
+.dropmenu{
+    display:none;
+    
+}
+.menubars ul li:hover .dropmenu{
+    display: block;
+    position: absolute;
+    background-color:var(--secondary);
+    
+} 
+.menubars ul li:hover .dropmenu ul{
+    display:block ;
+    margin-left: -20px;
+}
+.aboutt:hover{
+    color: var(--primary);
+
+}
+.menuu{
+    text-align: center;
+    font-size: 60px;
+    padding: 25px 0px 0px 0px;
+    letter-spacing: 4px;
+}
+.menuuu{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 1px;
+    font-style:oblique;
+    padding: 0px;
+}
+.menubg{
+    background-color:var(--back);
+    padding: 0px 0 0px 0px 0px;
+    color: var(--white);
+
+}
+.overlay1{
+     margin-top: 140px;
+     filter: brightness(3);
+}
+.reserve{
+    position: relative;
+    width: 80%;
+    background-position: center;
+    left: 160px;
+    height: 90vh;
+    background: url(bg.jpg);
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    z-index: 1;
+    }
+    .reserve-table{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        text-align:left;
+        color: white;
+        width: 100%;
+    }
+    .overlay3{
+        position: absolute;
+        width: 100%;
+        margin-top:-25px;
+        z-index: 2;
+        filter: brightness(3);
+    }
+    .overlay4{
+        position: absolute;
+        width: 100%;
+        margin-top: 620px;
+        z-index: 3;
+        filter: brightness(3);
+    }
+    .left1{
+        background: rgba(25, 3, 3, 0.616);
+        padding: 110px;
+        width: 100%;
+    }
+    .off1{
+        font-size: 85px;
+        color: var(--primary);
+        letter-spacing: 2px;
+    }
+    .off2{
+        font-size: 40px;
+    }
+    .off3{
+        font-size: 18px;
+        text-align: left;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        width: 85%;
+    }
+    .sit{
+        letter-spacing: 1px;
+    }
+    .right1{
+        background: rgba(41, 16, 16, 0.867);
+       padding: 80px;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       text-align: center;
+    }
+    #mail1{
+        height: 50px;
+        width: 90%;
+        background-color:  rgba(41, 16, 16, 0.867);
+        border-color: var(--primary);
+        margin-top: 20px;
+        border-width: 3px;
+        color: var(--success);
+        text-align: center;
+    }
+    #date{
+        height: 50px;
+        width: 90%;
+        background-color: rgba(41, 16, 16, 0.867);
+        border-color: var(--primary);
+        margin-top: 20px;
+        border-width: 3px;
+        color: var(--success);
+        text-align: center;
+    
+    }
+    #name1{
+        height: 50px;
+        width: 90%;
+        background-color: rgba(41, 16, 16, 0.867);
+        border-color: var(--primary);
+        margin-top: 20px;
+        border-width: 3px;
+        color: var(--success);
+        text-align: center;
+    }
+    #time{
+        height: 50px;
+        width: 90%;
+        background-color: rgba(41, 16, 16, 0.867);
+        border-color: var(--primary);
+        padding: 20px;
+        margin-top: 20px;
+        border-width: 3px;
+        color: var(--success);
+        text-align: center;
+    }
+    #person{
+        height: 50px;
+        width: 90%;
+        margin-left: -44px;
+        margin-top: 20px;
+        background-color: rgba(41, 16, 16, 0.867);
+        border-color: var(--primary);
+        border-width: 3px;
+        color: var(--success);
+        text-align: center;
+    }
+    #btnn{
+        height: 50px;
+        width: 90%;
+        background-color:  var(--primary);
+        border-color: var(--primary);
+        margin-top: 20px;
+        border-width: 3px;
+        color: var(--success);
+       
+    }
+   
+.end-section1{
+    background-image: url(bg.jpg);
+    height:65vh;
+    padding: 60px;
+    width: 100%;
+    text-align: left;
+    margin-top: 100px;
+
+}
+.end-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: var(--white);
+    background-color: var(--back);
+    padding: 50px 60px 40px 60px;
+    margin-bottom: 1.2px;
+    width: 100%;
+}
+.overlay-end{
+  width: 100%;
+   margin-bottom:-240px ;
+   filter: brightness(3)
+}
+
+.h22{
+    font-size:40px ;
+    text-transform: uppercase;
+    padding: 0px 35px;
+    font-weight: 50px;
+
+    
+}
+.copyright{
+    color: var(--white);
+    text-align: center;
+    background-color:var(--back);
+    margin-top: 0px;
+    padding: 0px 50px 5px 0px;
+}
+.days{
+    padding: 0px 40px;
+    font-size: 14px;
+    font-weight: 20px;
+    font-family:sans-serif
+}
+.icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--white);
+ }
+ .icon:hover
+ {
+    background-color: var(--primary);
+ }
+ .mail3{
+    padding: 0px 10px 0px 0px;
+    margin-left: 40px;
+    width: 252px;
+    height: 50px;
+    text-align: center;
+
+ }
+ .btn9{
+    height: 53px;
+    width: 90px;
+    margin-left: -20px;
+    background-color: var(--primary);
+ }
+ .btn9:hover{
+    background-color: var(--orange);
+    color: var(--white);
+ }  
+ .day2{
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary);
+
+ }
+ .days1{
+    padding-top: 15px;
+    word-spacing: 3px;
+    font-family: serif;
+ }
+ .days2{
+    word-spacing: 3px;
+    font-family: serif;
+ }
+ .mail3:hover{
+    border: 3px solid var(--primary);
+ }
+ @media (max-width: 670px) {
+    .home11{
+        background-image:url(bg.jpg);
+        height: 40vh;
+        background-color:var(--back);
+        background-position: center;
+    }   
+    .logo1{
+        position:relative;
+        color:white ;
+        z-index:1;
+      }
+      .heading{
+        color:white ;
+        z-index: 1;
+        font-weight: bolder;
+      }
+      .koppee{
+        font-size: 16px;
+        padding: 10px 0px 0px 10px;
+        font-weight: 400;
+      }
+      .overlay1{
+        margin-top: 60px;
+        filter: brightness(3);
+      }
+       .menubars{
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        margin-left: 45px;
+        margin-top: -25px;
+      }
+      .menubars ul{
+        display: flex;
+        justify-content:space-around;
+        list-style: none;
+        text-align: center;
+      
+      }
+      .menubars ul li{
+        width:50px;
+        font-size: 10px;
+      }
+      .menubars ul li a{
+        color: var(--white);
+        text-decoration: none;
+      
+      }
+      .about12{
+        color: var(--primary);
+      }
+      .dropmenu{
+        display:none;
+        
+      }
+      .menubars ul li:hover .dropmenu{
+        display: block;
+        position: absolute;
+        background-color:var(--secondary);
+        
+      } 
+      .menubars ul li:hover .dropmenu ul{
+        display:block ;
+        margin-left: -20px;
+      }
+      .aboutt:hover{
+        color: var(--primary);
+      
+      }
+      .menuu {
+          font-size: 20px;
+          padding: 80px 0px 0px 0px;
+        }
+    
+        .menuuu {
+            font-size: 16px;
+        }
+        .reserve {
+            width: 84%;
+            left: 0;
+            background-position: center;
+            height: 870px;
+            padding: 0px 0px 0px 0px;
+            left: 32px;
+            top: -30px;
+        }
+    
+        .reserve-table {
+            display: block;
+            text-align: center;
+        }
+    
+        .left1, .right1 {
+            width: 100%;
+            padding: 20px;
+        }
+    
+        .off1 {
+            font-size: 30px;
+            text-align: left;
+        }
+    
+        .off2 {
+            font-size: 22px;
+            text-align: left;
+        }
+    
+        .off3 {
+            font-size: 15px;
+            width: 100%;
+        }
+        .sit{
+            text-align: left;
+            font-size: 18px;
+        }
+    
+        #mail1, #date, #name1, #time, #person, #btnn {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .overlay3 {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 858px;
+            z-index: 1;
+
+        }
+        .overlay4 {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: -13px;
+            z-index: 2;
+        }
+        .overlay-end{
+            width: 100%;
+           margin-bottom:-35px ;
+          filter: brightness(3)
+        }
+        .end-section1 {
+            padding: 20px 10px;
+            margin-top: 0px;
+            height: 850px;
+            width: 100%;
+        }
+    
+        .end-section {
+            grid-template-columns: repeat(1, auto); 
+            padding: 20px 10px;
+        }
+    
+        .h22 {
+            font-size: 24px; 
+            padding: 0px 10px; 
+        }
+    
+        .days {
+            padding: 0px 10px;
+        }
+    
+        .mail3 {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .btn9 {
+            width: 100%; 
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    
+        .icon {
+            padding: 10px;
+            font-size: 24px;
+            width: 40px;
+        }
+        .copyright{
+            color: var(--white);
+            text-align: center;
+            background-color:var(--back);
+            margin-top: 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        .day2{
+            padding: 5px 0px 0px 5px;
+    
+        }
+    }
+    
