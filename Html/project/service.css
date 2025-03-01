@@ -19,10 +19,7 @@
     --back: rgba(58, 28, 28, 0.792);
 }
 body{
-    font-family: "Bebas Neue", serif;
-  font-weight: 400;
-  background-color: var(--light);
-    
+    font-family: "Bebas Neue", serif;  
 }
 .home11{
     background-image:url(bg.jpg);
